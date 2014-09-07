@@ -15,7 +15,7 @@ public class EscreverArquivoTxt{
             
             BufferedWriter novo;
             novo = new BufferedWriter(new FileWriter(arquivo));
-            novo.write("Ta dominado!!!!");
+            novo.write("Gravação realizada com sucesso !!!!");
             novo.newLine();
             novo.close();
             
